@@ -1,13 +1,13 @@
 
 TITLE: 
-Union - Multi-Purpose One Page Responsive Free HTML5 template
+Knoll Healthcare Website
 
 AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
+DESIGNED & DEVELOPED by genithub.com
 
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+Website: http://genithub.com/
+Twitter: http://twitter.com/genithub
+Facebook: https://www.facebook.com/genithub/
 
 
 CREDITS:
@@ -57,5 +57,5 @@ Dribble demo image
 https://dribbble.com/tibi_neamu
 
 
-Mafnific Popup
+Magnific Popup
 http://dimsemenov.com/plugins/magnific-popup/
