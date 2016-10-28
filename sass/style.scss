@@ -5,8 +5,8 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #ff3b30 !default;
-$brand-secondary: #1fb5f6 !default; 
+$brand-primary: #0FA484 !default;
+$brand-secondary: #0FA484 !default; 
 
 
 
@@ -18,7 +18,7 @@ $brand-lighter: #e9e9e9;
 $brand-body-color: #f1f1f1;
 $brand-selection-color: #f9f6f0;
 $brand-overlay-color: #3b3d40;
-$brand-bg-footer: #3f5267;
+$brand-bg-footer: #04283E;
 $brand-bg-color: $brand-white;
 
 $input-border-focus:  $brand-primary !default;
@@ -154,17 +154,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 ::-webkit-selection {
   color: $brand-white;
-  background: $brand-secondary;
+  background: #0FA484;
 }
 
 ::-moz-selection {
   color: $brand-white;
-  background: $brand-secondary;
+  background: #0FA484;
 }
 
 ::selection {
   color: $brand-white;
-  background: $brand-secondary;
+  background: #0FA484;
 }
 
 
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 
 			a {
 				font-family: $font-primary;
-				color: rgba(0,0,0,.5);
+				color: rgba(255,255,255,.5);
 				position: relative;
 				// text-transform: uppercase;
 				font-size: 16px;
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 				}
 				&:hover {
 					// color: $brand-primary;
-					color: $brand-black;
+					color: #fff;
 					// color: rgba(255,255,255,1);
 					span {
 						&:before {
@@ -323,10 +323,10 @@ h1, h2, h3, h4, h5, h6 {
 
 			li {
 				a {
-					color: rgba(0,0,0,.5) !important;
+					color: rgba(255,255,255) !important;
 					@include transition(.3s);
 					&:hover {
-						color: $brand-primary;
+						color: rgba(255,255,255,0.8);
 					}
 				}
 				&.active {
@@ -497,7 +497,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #fh5co-services, #fh5co-testimony, #fh5co-explore, #fh5co-faq, #fh5co-team, #fh5co-trusted, #fh5co-footer {
-	padding: 5em 0;
+	padding: 2em 0;
 	@media screen and (max-width: $screen-sm) {
 		padding: 2em 0;
 	}
@@ -534,7 +534,7 @@ h1, h2, h3, h4, h5, h6 {
 			position: absolute;
 			left: 0;
 			top: 0;
-			color: $brand-secondary;
+			color: #0FA484;
 		}
 	}
 
@@ -560,7 +560,7 @@ h1, h2, h3, h4, h5, h6 {
 				left: 0;
 				top: 0;
 				font-size: 18px;
-				color: $brand-secondary;
+				color: #0FA484;
 			}	
 		}
 	}
@@ -584,7 +584,7 @@ h1, h2, h3, h4, h5, h6 {
 				font-weight: 700;
 
 				a.twitter{
-					color: $brand-secondary;
+					color: #0FA484;
 					font-weight: 300;
 				}
 			}
@@ -624,7 +624,7 @@ h1, h2, h3, h4, h5, h6 {
 					display: block;
 					width: 50px;
 					height: 2px;
-					background: $brand-secondary;
+					background: #0FA484;
 					left: 50%;
 					margin-left: -25px;
 					bottom: 0;
@@ -656,7 +656,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .getting-started{
-	background: $brand-secondary;
+	background: #0FA484;
 	padding: 60px 0 40px 0;
 
 	h3{
@@ -732,7 +732,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	    .btn-select-plan{
 	    	padding: 10px 20px;
-	    	background: $brand-secondary;
+	    	background: #0FA484;
 	    	color: $brand-white;
 
 	    	-webkit-box-shadow: 0px 3px 6px -1px rgba(0,0,0,0.15);
@@ -790,7 +790,7 @@ h1, h2, h3, h4, h5, h6 {
 			left: 0;
 			top: 0;
 			font-size: 54px;
-			color: $brand-secondary;
+			color: #0FA484;
 		}
 	}
 	.fh5co-post{
@@ -804,7 +804,7 @@ h1, h2, h3, h4, h5, h6 {
 	.call-to-action{
 		.btn-learn{
 			padding: 12px 30px;
-			background: lighten($brand-secondary, 10%);
+			background: lighten(#0FA484, 10%);
 			color: $brand-white;
 		}
 	}
@@ -949,7 +949,7 @@ h1, h2, h3, h4, h5, h6 {
 			display: block;
 			width: 50px;
 			height: 2px;
-			background: $brand-secondary;
+			background: #0FA484;
 			left: 50%;
 			margin-left: -25px;
 			bottom: 0;
@@ -964,12 +964,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-footer{
 	background: $brand-bg-footer;
-	color: #74889e;
+	color: #fff;
 	a{
 		color: #74889e;
 			&:hover {
 				color: $brand-white!important;
-				text-decoration: underline;
+				text-decoration: none;
 			}
 	}
 
@@ -987,7 +987,7 @@ h1, h2, h3, h4, h5, h6 {
 			display: block;
 		width: 35px;
 		height: 2px;
-		background: $brand-secondary;
+		background: #0FA484;
 		}
 	}
 
@@ -1008,7 +1008,7 @@ h1, h2, h3, h4, h5, h6 {
 			display: block;
 			width: 35px;
 			height: 2px;
-			background: $brand-secondary;
+			background: #0FA484;
 		}
 	}
 	.contact-info{
@@ -1026,7 +1026,7 @@ h1, h2, h3, h4, h5, h6 {
 				top: 0;
 				left: 0;
 				font-size: 22px;
-				color: $brand-secondary;
+				color: #0FA484;
 			}
 
 			
@@ -1044,7 +1044,7 @@ h1, h2, h3, h4, h5, h6 {
 			margin-right: 10px;
 
 			a{
-				color: $brand-secondary;
+				color: #0FA484;
 
 				&:hover, &:focus, &:active{
 					text-decoration: none;
